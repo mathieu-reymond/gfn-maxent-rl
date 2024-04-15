@@ -1,0 +1,3 @@
+[submodule "gflownet"]
+	path = gflownet
+	url = git@github.com:recursionpharma/gflownet.git
