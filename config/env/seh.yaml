@@ -1,0 +1,19 @@
+# @package _global_
+
+env:
+  _target_: "gfn_maxent_rl.envs.seh.factories.get_seh_env"
+
+  # Name of the environment
+  name: "seh" 
+
+policy_network:
+  _target_: "gfn_maxent_rl.envs.seh.policy.policy_network_mlp"
+
+value_network:
+  _target_: "gfn_maxent_rl.envs.seh.policy.q_network_mlp"
+
+flow_network:
+  _target_: "gfn_maxent_rl.envs.seh.policy.f_network_mlp"
+
+
+exp_name_env: "seh"
